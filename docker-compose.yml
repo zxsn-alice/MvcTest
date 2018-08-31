@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mvctest:
+    image: mvctest
+    build:
+      context: ./MvcTest
+      dockerfile: Dockerfile
